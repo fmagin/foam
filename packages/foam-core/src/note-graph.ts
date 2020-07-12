@@ -5,6 +5,12 @@ import { hashURI, computeRelativeURI } from './utils';
 
 export interface NoteSource {
   uri: URI;
+}
+export type ID = string;
+
+export interface Link {
+  from: ID;
+  to: ID;
   text: string;
   contentStart: Point;
   end: Point;
