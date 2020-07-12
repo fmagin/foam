@@ -3,7 +3,7 @@ import { Position, Point } from 'unist';
 import GithubSlugger from 'github-slugger';
 import { EventEmitter } from 'events';
 
-type ID = string;
+export type ID = string;
 
 export interface Link {
   from: ID;
