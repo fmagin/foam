@@ -120,7 +120,7 @@ function getFoamDefinitions(
 export function stringifyMarkdownLinkReferenceDefinition(
   definition: NoteLinkDefinition
 ) {
-  let text = `[${definition.label}]: ${definition.url}`;
+  let text = `[${definition.label}]: ${definition.url}.md`;
   if (definition.title) {
     text = `${text} "${definition.title}"`;
   }
