@@ -40,7 +40,7 @@
       "properties": {
         "foam.edit.linkReferenceDefinitions": {
           "type": "string",
-          "default": "withoutExtensions",
+          "default": "withExtensions",
           "enum": [
             "withExtensions",
             "withoutExtensions"
